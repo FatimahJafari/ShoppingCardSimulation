@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #eaf0f6;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product, .cart-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background: white;
+  color: rgb(121, 82, 179);
+}
+::placeholder{
+    color: rgb(121, 82, 179);
+}
+button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(121, 82, 179);
+  color: #fff;
+}
+h1,h2,h3{
+    color: rgb(121, 82, 179);
+}
